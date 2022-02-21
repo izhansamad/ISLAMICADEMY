@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&family=Saira:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>ISLAMICADEMY</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">ISLAMICADEMY</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"> 
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Our Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#whyus">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- CAROUSEL START -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div
+          class="carouselTitle d-flex h-100 align-items-center justify-content-center"
+        >
+          <div class="content">
+            <h1>Welcome to ISLAMICADEMY</h1>
+            <div class="spacer"></div>
+            <p>Learn Quran Online</p>
+            <button
+              type="button"
+              onclick="window.location.href='#courses'"
+              class="btn btn-danger"
+            >
+              GET STARTED
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="assets/1.png" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/2.jpg" alt="Second slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="assets/4.jpg" alt="Third slide" />
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+    </div>
+    <!-- CAROUSEL END -->
+
+    <!-- OUR COURSES -->
+    <div class="courses" id="courses">
+      <h1>OUR FEATURED COURSES</h1>
+      <p>
+        We offer a wide range of courses covering all aspects of your
+        educational needs.
+      </p>
+
+      <div class="course-cards">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="assets/noorani.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Noorani Qaida Course</h5>
+            <p class="card-text">
+              This is the first step while you learn Quran online. Through this
+              comprehensive and customizable course, you or your kids can learn
+              Quran online reception anywhere in the world with highly-qualified
+              Quran tutors.
+            </p>
+            <a
+              href="https://forms.gle/uPhaUWmfD747PRe29"
+              target="_blank"
+              class="btn btn-primary"
+              >Enroll Now</a
+            >
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="assets/quran-teaching.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Quran Teaching Course</h5>
+            <p class="card-text">
+              This Course is for everybody, from kids to adults who want to
+              learn Quran Online anywhere from the world, with highly
+              professional and qualified Quran tutors.
+            </p>
+            <a
+              href="https://forms.gle/uPhaUWmfD747PRe29"
+              target="_blank"
+              class="btn btn-primary"
+              >Enroll Now</a
+            >
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="assets/tajweed.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tajweed Course</h5>
+            <p class="card-text">
+              Learn to recite Quran with Tajweed (proficiently). We offer online
+              tajweed course where you and your kids can improve Quran
+              recitation proficiency. We provide quality Quranic teaching for
+              all at afforable cost.
+            </p>
+            <a
+              href="https://forms.gle/uPhaUWmfD747PRe29"
+              target="_blank"
+              class="btn btn-primary"
+              >Enroll Now</a
+            >
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="assets/tafseer.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Online Tafseer Course</h5>
+            <p class="card-text">
+              This course is designed for those who wants to get a better
+              understanding of Quran and Islam. The Tafsir will be online to
+              facilitate our students. We all should strive to get a better
+              understanding of Quran.
+            </p>
+            <a
+              href="https://forms.gle/uPhaUWmfD747PRe29"
+              target="_blank"
+              class="btn btn-primary"
+              >Enroll Now</a
+            >
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="assets/quran-memorization.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Quran Memorization Course</h5>
+            <p class="card-text">
+              This course is specially designed for people that who wants to
+              memorize Quran with ease at their own pace. This online course
+              helps individuals to memorize Quran anywhere from the world.
+            </p>
+            <a
+              href="https://forms.gle/uPhaUWmfD747PRe29"
+              target="_blank"
+              class="btn btn-primary"
+              >Enroll Now</a
+            >
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="assets/seerat.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Seerat Course</h5>
+            <p class="card-text">
+              A unique online course, for every Muslim who desire to increase
+              their love for the beloved Prophet Muhammad (PBUH), gain a better
+              understanding of the Prophetic life.
+            </p>
+            <a
+              href="https://forms.gle/uPhaUWmfD747PRe29"
+              target="_blank"
+              class="btn btn-primary"
+              >Enroll Now</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEMO -->
+    <div class="demo">
+      <img src="assets/demo.jpg" alt="" />
+      <div class="text-btn">
+        <h1>GET OUR ONE WEEK DEMO CLASSES FOR FREE</h1>
+        <button
+          onclick=" window.open('https://forms.gle/uPhaUWmfD747PRe29','_blank')"
+          type="button"
+          class="btn btn-danger"
+        >
+          START NOW
+        </button>
+      </div>
+    </div>
+
+    <!-- ABOUT US SECTION -->
+    <!-- <div class="about container" id="about">
+      <h1>ABOUT US</h1>
+      <p>ISLAMICADEMY is working since 2021. We provides opportunity to Learn Quran by just sitting at Home in your free hours.We have Female Quran Teachers for female students so there will be no difficulty for females in taking their Best Online Quran Classes. ISLAMICADEMY provides you opportunity to Quran Online Reading in affordable range.</p>
+    </div> -->
+
+    <!-- WHY US SECTION -->
+    <div class="whyus" id="whyus">
+      <h1>WHY US?</h1>
+      <div class="container col">
+        <div class="whyus-item">
+          <h3>PROFESSIONAL TUTORS</h3>
+          <p>
+            We Teach Quran online all around the world with highly professional
+            tutors
+          </p>
+        </div>
+        <div class="whyus-item">
+          <h3>AFFORDABLE FEE STRUCTURE</h3>
+          <p>
+            We provide affordable fee structure so that anybody can learn the
+            teachings of Islam
+          </p>
+        </div>
+        <div class="whyus-item">
+          <h3>ONE TO ONE CLASSES</h3>
+          <p>
+            We provide one to one online sessions so that every student get full
+            attention by the tutor
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- POSTER -->
+    <div class="poster">
+      <img src="assets/3.jpg" alt="" />
+    </div>
+
+    <!-- CONTACT US -->
+    <div class="container contact-us" id="contact">
+      <h1>CONTACT US</h1>
+
+      <div class="contact-us-icons container">
+        <div class="contact">
+          <a href="https://wa.me/+923111767712" target="_blank"
+            ><img src="assets/whatsapp.png" alt=""
+          /></a>
+          <div>
+            <h5>Contact Us on Whatsapp</h5>
+            <p>
+              <a href="https://wa.me/+923111767712" target="_blank"
+                >+92 311 176 7712</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="contact">
+          <a href="https://msng.link/o/?msajid7862011=sk" target="_blank"
+            ><img src="assets/skype.png" alt=""
+          /></a>
+          <div>
+            <h5>Contact Us on Skype</h5>
+            <p>
+              <a href="https://msng.link/o/?msajid7862011=sk" target="_blank"
+                >@msajid7862011</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="contact">
+          <a href="#"><img src="assets/fb.png" alt="" /></a>
+          <div>
+            <h5>Follow Us on Facebook</h5>
+            <p><a href="#">@ISLAMICADEMY</a></p>
+          </div>
+        </div>
+
+        <div class="contact">
+          <a href="#"><img src="assets/insta.png" alt="" /></a>
+          <div>
+            <h5>Follow Us on Instagram</h5>
+            <p><a href="#">@ISLAMICADEMY</a></p>
+          </div>
+        </div>
+
+        <div class="contact">
+          <a href="https://forms.gle/uPhaUWmfD747PRe29" target="_blank"
+            ><img src="assets/form.png" alt=""
+          /></a>
+          <div>
+            <h5>Submit our Contact Us Form</h5>
+            <p>
+              <a href="https://forms.gle/uPhaUWmfD747PRe29" target="_blank"
+                >Here</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="inquiry container">
+      <h1>For any inquiries please email</h1>
+      <p>
+        <a href="https://mailto:islamicademy786@gmail.com" target="_blank"
+          >Islamicademy786@gmail.com</a
+        >
+      </p>
+    </div>
+
+    <div class="footer row">
+      <div class="col-8 ">
+        <h1>ISLAMICADEMY</h1>
+        <div class="space"></div>
+        <div class="text">
+          ISLAMICADEMY is working since 2021. We provides opportunity to Learn
+          Quran by just sitting at Home in your free hours.We have Female Quran
+          Teachers for female students so there will be no difficulty for
+          females in taking their Best Online Quran Classes. ISLAMICADEMY
+          provides you opportunity to Quran Online Reading in affordable range.
+        </div>
+        <div class="icons">
+          <a href="https://wa.me/+923111767712" target="_blank"><i class="fab fa-whatsapp"></i> </a>
+          <a href="#"><i class="fab fa-facebook"></i> </a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://msng.link/o/?msajid7862011=sk" target="_blank"><i class="fab fa-skype"></i> </a>
+          <a href="https://forms.gle/uPhaUWmfD747PRe29" target="_blank"><i class="far fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="col-4">
+        <h1>CONTACT</h1>
+        <div class="space"></div>
+        <div class="items">
+          <i style="color: white" class="material-icons">location_on</i
+          ><a href="#">Karachi, Pakistan</a>
+        </div>
+        <div class="items">
+          <i style="color: white" class="material-icons">call</i
+          ><a href="#">+92 333 389 8571</a>
+        </div>
+        <div class="items">
+          <i style="color: white" class="material-icons">call</i
+          ><a href="https://wa.me/+923111767712" target="_blank">+92 311 176 7712</a>
+        </div>
+        <div class="items">
+          <i style="color: white" class="material-icons">mail</i
+          ><a href="https://mailto:islamicademy786@gmail.com" target="_blank"
+            >Islamicademy786@gmail.com</a
+          >
+        </div>
+      </div>
+      <div class="rights container-fluid">
+        <h4>© ISLAMICADEMY 2022 | All Rights Reserved</h4>
+      </div>
+    </div>
+
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+    <!-- Bootstrap Script -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
